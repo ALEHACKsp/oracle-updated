@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="handler.cpp" />
+    <ClCompile Include="d3d.cpp">
+      <Filter>source utils\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>source utils\esp render</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>source utils\esp render</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>source utils\esp render</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>source utils\esp render</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>source utils\esp render</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>source utils\esp render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source utils">
+      <UniqueIdentifier>{ab3b9e1d-59c6-473b-b94e-ebb0e7c8d83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source utils\d3d">
+      <UniqueIdentifier>{40d40530-a724-4ec8-b439-a219cdc8c98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source utils\main">
+      <UniqueIdentifier>{1cfb8c44-6110-4d5f-942f-4597e3d56306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source utils\esp render">
+      <UniqueIdentifier>{2df84f5c-fde8-465c-a583-e6e2d5fe6a7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3d.h">
+      <Filter>source utils\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>source utils\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>source utils\esp render</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>source utils\esp render</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>source utils\esp render</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>source utils\esp render</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>source utils\esp render</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>source utils\esp render</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>source utils\esp render</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>source utils\esp render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
